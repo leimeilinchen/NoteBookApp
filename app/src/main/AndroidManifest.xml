@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lml.notebook">
+
+    <!-- 获取sd卡写的权限，用于文件上传和下载 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:name="com.lml.notebook.db.DemoApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.lml.notebook.activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="android.app.shortcuts"
+            android:resource="@xml/shortcuts" />
+
+        <activity
+            android:name="com.lml.notebook.activity.AddRecordActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.lml.notebook.activity.AccountingActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.lml.notebook.activity.BianQianActivity" />
+        <activity android:name="com.lml.notebook.activity.RiLiActivity" />
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.lml.notebook.activity.MainActivity" />
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.lml.notebook.activity.SetingActivity" />
+        <activity android:name="com.lml.notebook.activity.AddNoteActivity" />
+        <activity android:name="com.lml.notebook.activity.RegisterActivity" />
+        <activity android:name="com.lml.notebook.activity.PassWordActivity" />
+        <activity android:name="com.lml.notebook.activity.LoginPassActivity"></activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.lml.notebook.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

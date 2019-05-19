@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#50000000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:paddingBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/photo_take"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="@string/user_camera" />
+
+        <TextView
+            android:id="@+id/photo_album"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="@string/user_pic" />
+
+        <TextView
+            android:id="@+id/photo_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="@string/user_camera_cancel" />
+    </LinearLayout>
+
+</RelativeLayout>

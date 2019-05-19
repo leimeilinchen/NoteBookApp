@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3BB4C1</color>
+    <color name="colorPrimaryDark">#079EAF</color>
+    <color name="colorPrimaryLight">#3BB4C1</color>
+    <color name="colorAccent">#38AE81</color>
+
+    <color name="gravy_light">#999999</color>
+
+
+    <color name="colorPrimary_text">#212121</color>
+    <color name="colorSecondary_text">#757575</color>
+    <color name="colorIcons">#FFFFFF</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="creat_background">#F4F6FE</color>
+    <color name="colorAccents">#FA7199</color>
+    <color name="text">#2a2a2a</color>
+    <color name="common_blue_0090FF">#3BB4C1</color>
+    <color name="colorPrimaryNight">#32363C</color>
+    <color name="colorPrimaryDarkNight">#232C31</color>
+    <color name="colorAccentNight">#73432A</color>
+
+
+    <color name="dayBackground">#F2F4F7</color>
+    <color name="dayTextColor">#000</color>
+    <color name="dayItemBackground">#fff</color>
+
+    <color name="nightItemBackground">#37474F</color>
+    <color name="nightBackground">#263238</color>
+    <color name="nightTextColor">#fff</color>
+
+    <color name="grey_700_96p">#F5616161</color>
+    <color name="grey_300_96p">#F5E0E0E0</color>
+    <color name="grey_900">#212121</color>
+    <color name="grey_900_96p">#F5212121</color>
+    <color name="white_96p">#F5FFFFFF</color>
+</resources>

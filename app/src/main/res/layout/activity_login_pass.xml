@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    tools:context=".activity.LoginPassActivity">
+
+    <com.lml.notebook.util.SecurityCodeView
+        android:id="@+id/edit_security_code"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="21dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/tv_mima"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/selector_btn_login"
+        android:gravity="center"
+        android:text="保存密码"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

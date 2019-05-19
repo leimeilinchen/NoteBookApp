@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">NoteBookApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_new_record">记一笔</string>
+    <string name="add_new_record_short">记一笔</string>
+    <string name="shortcut_disable_msg">暂不可用</string>
+
+    <string name="menu_plan">首页</string>
+    <string name="menu_data">便签</string>
+    <string name="menu_more">日历</string>
+    <string name="menu_square">设置</string>
+
+    <string name="priority_placeholder">1</string>
+    <string name="title_placeholder">title</string>
+    <string name="description_placeholder">description</string>
+
+    <!--换头像的功能-->
+    <string name="user_camera">拍照</string>
+    <string name="user_pic">相册选择</string>
+    <string name="user_camera_cancel">取消</string>
+</resources>

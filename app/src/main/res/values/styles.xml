@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="playBarBackground">@drawable/play_bar_bg_selector</item>
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+    </style>
+    <style name="DayTheme" parent="AppTheme">
+        <item name="zzbackground">@color/dayBackground</item>
+        <item name="zzbackgroundDrawable">@drawable/ic_launcher</item>
+        <item name="zztextColor">@color/dayTextColor</item>
+        <item name="zzItemBackground">@color/dayItemBackground</item>
+    </style>
+    <style name="NightTheme" parent="AppTheme">
+        <item name="zzbackground">@color/nightBackground</item>
+        <item name="zzbackgroundDrawable">@color/nightBackground</item>
+        <item name="zztextColor">@color/nightTextColor</item>
+        <item name="zzItemBackground">@color/nightItemBackground</item>
+
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
+        <item name="colorAccent">@color/colorAccentNight</item>
+    </style>
+    <!-- 自定义控件风格-->
+    <style name="Custom" />
+
+    <style name="Custom.TabRadioButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/tab_text_color_selector</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="text_editStyle" >
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_user_verify_code_grey</item>
+        <item name="android:textColor">@color/common_blue_0090FF</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+
+    <style name="AppThemeDark" parent="AppBaseThemeDark" />
+    <style name="AppBaseThemeDark" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/grey_900</item>
+        <item name="colorPrimaryDark">@color/grey_900</item>
+        <item name="colorAccent">@color/grey_900</item>
+        <item name="playBarBackground">@drawable/play_bar_bg_selector_dark</item>
+    </style>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+                <attr name="zzbackground" format="color|reference"/>
+                <attr name="zzbackgroundDrawable" format="reference"/>
+                <attr name="zztextColor" format="color"/>
+                <attr name="zzItemBackground" format="color"/>
+    <attr name="playBarBackground" format="string|reference"/><!--切换背景图片属性-->
+</resources>
